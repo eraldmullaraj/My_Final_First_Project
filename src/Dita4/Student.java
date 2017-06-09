@@ -18,15 +18,15 @@ public class Student {
     public int getMosha() {
         return mosha;
     }
-    public void setEmri(String emri) {
-        this.emri = emri;
+    public void setMosha(int mosha) {
+        this.mosha = mosha;
     }
 
     public String getEmri() {
         return emri;
     }
-    public void setMosha(int mosha) {
-        this.mosha = mosha;
+    public void setEmri(String emri) {
+        this.emri = emri;
     }
 
 }

@@ -5,13 +5,19 @@ package Dita4;
  */
 public class Objektet {
     public static void main(String[] args) {
-        Student Eraldi = new Student();
-        Student Eraldi1 = new Student();
-        Student Eraldi2 = new Student();
-        Student Eraldi3 = new Student();
+        Student Erald = new Student();
+        Student Erjon = new Student();
+        Student Fatjon = new Student();
+        Student Tomas = new Student();
 
+        Erald.setEmri("Erald");
+        Erald.setMosha(29);
 
-        System.out.print(Student.getNumriIStudentave());
+        Erjon.setEmri("Erjon Jhony");
+        Erjon.setMosha(28);
+
+        System.out.println("Nr i studenteve ne klase " + Student.getNumriIStudentave());
+        System.out.print("Mosha e Eraldit eshte " + Erald.getMosha());
     }
 
 }
