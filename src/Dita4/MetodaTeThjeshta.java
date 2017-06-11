@@ -3,7 +3,7 @@ package Dita4;
 /**
  * Created by erald on 17-06-07.
  */
-public class KlasaQershor {
+public class MetodaTeThjeshta {
 
     public static void main(String[] args){
 

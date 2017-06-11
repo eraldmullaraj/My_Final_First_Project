@@ -5,6 +5,8 @@ package Dita4;
  */
 public class KlasaEKubit {
     public static void main (String[] args){
+
+        // Kubi eshte krijuar tek klasa Kubi, dhe ketu therritet
         Kubi kubi1 = new Kubi(20, 30,40);
         Kubi kubi2 = new Kubi(); // Kubi default
 
